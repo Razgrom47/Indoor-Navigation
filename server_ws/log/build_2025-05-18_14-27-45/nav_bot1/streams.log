@@ -1,0 +1,46 @@
+[0.043s] Invoking command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1 -DCMAKE_INSTALL_PREFIX=/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1
+[0.518s] -- The C compiler identification is GNU 13.3.0
+[0.750s] -- The CXX compiler identification is GNU 13.3.0
+[0.893s] -- Detecting C compiler ABI info
+[1.786s] -- Detecting C compiler ABI info - done
+[1.830s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.831s] -- Detecting C compile features
+[1.832s] -- Detecting C compile features - done
+[1.861s] -- Detecting CXX compiler ABI info
+[2.430s] -- Detecting CXX compiler ABI info - done
+[2.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.459s] -- Detecting CXX compile features
+[2.461s] -- Detecting CXX compile features - done
+[2.479s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.967s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.262s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.502s] Error parsing '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1/package.xml':
+[8.164s] Traceback (most recent call last):
+[8.164s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[8.165s]     main()
+[8.165s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[8.165s]     raise e
+[8.165s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[8.169s]     package = parse_package_string(
+[8.175s]               ^^^^^^^^^^^^^^^^^^^^^
+[8.176s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[8.190s]     pkg.validate(warnings=warnings)
+[8.191s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[8.191s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[8.192s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1/package.xml':
+[8.192s] Invalid email "" for person "Indoor-Navigation"
+[8.192s] Maintainers must have an email address
+[8.469s] -- Configuring incomplete, errors occurred!
+[8.469s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[8.469s]   execute_process(/usr/bin/python3
+[8.470s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[8.470s]   /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1/package.xml
+[8.470s]   /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1/ament_cmake_core/package.cmake)
+[8.470s]   returned error code 1
+[8.470s] Call Stack (most recent call first):
+[8.470s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[8.471s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[8.471s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[8.471s] 
+[8.471s] [0m
+[8.519s] Invoked command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1 -DCMAKE_INSTALL_PREFIX=/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1

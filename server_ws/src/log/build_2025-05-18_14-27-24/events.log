@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.002979] (nav_bot1) JobQueued: {'identifier': 'nav_bot1', 'dependencies': OrderedDict()}
+[0.003054] (nav_bot1) JobStarted: {'identifier': 'nav_bot1'}
+[0.087915] (nav_bot1) JobProgress: {'identifier': 'nav_bot1', 'progress': 'cmake'}
+[0.095208] (nav_bot1) Command: {'cmd': ['/usr/bin/cmake', '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1', '-DCMAKE_INSTALL_PREFIX=/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/install/nav_bot1'], 'cwd': '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/build/nav_bot1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'indoor-navigation', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/indoor-navigation', 'OLDPWD': '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1900', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'indoor-navigation', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'indoor-navigation', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/indoor-navigation-VirtualBox:@/tmp/.ICE-unix/1859,unix/indoor-navigation-VirtualBox:/tmp/.ICE-unix/1859', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3684ba0_4b30_49fe_9927_5cbe0f321299', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PIGS62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/build/nav_bot1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.100577] (-) TimerEvent: {}
+[0.203017] (-) TimerEvent: {}
+[0.317107] (-) TimerEvent: {}
+[0.419290] (-) TimerEvent: {}
+[0.521786] (-) TimerEvent: {}
+[0.625229] (-) TimerEvent: {}
+[0.729854] (-) TimerEvent: {}
+[0.831787] (-) TimerEvent: {}
+[0.934942] (-) TimerEvent: {}
+[1.035806] (-) TimerEvent: {}
+[1.137121] (-) TimerEvent: {}
+[1.238916] (-) TimerEvent: {}
+[1.331149] (nav_bot1) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.340469] (-) TimerEvent: {}
+[1.446492] (-) TimerEvent: {}
+[1.547168] (-) TimerEvent: {}
+[1.647887] (-) TimerEvent: {}
+[1.748885] (-) TimerEvent: {}
+[1.849346] (-) TimerEvent: {}
+[1.949921] (-) TimerEvent: {}
+[2.029050] (nav_bot1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.051246] (-) TimerEvent: {}
+[2.151906] (-) TimerEvent: {}
+[2.229944] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.252045] (-) TimerEvent: {}
+[2.352992] (-) TimerEvent: {}
+[2.454791] (-) TimerEvent: {}
+[2.557225] (-) TimerEvent: {}
+[2.670178] (-) TimerEvent: {}
+[2.744730] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.767003] (nav_bot1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.769252] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.770571] (-) TimerEvent: {}
+[2.771375] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.855753] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.870856] (-) TimerEvent: {}
+[2.971793] (-) TimerEvent: {}
+[3.072838] (-) TimerEvent: {}
+[3.173454] (-) TimerEvent: {}
+[3.240085] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.264834] (nav_bot1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.266926] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.267926] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.278707] (-) TimerEvent: {}
+[3.371745] (nav_bot1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.379317] (-) TimerEvent: {}
+[3.480133] (-) TimerEvent: {}
+[3.582558] (-) TimerEvent: {}
+[3.698267] (-) TimerEvent: {}
+[3.787335] (nav_bot1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.798713] (-) TimerEvent: {}
+[3.927049] (-) TimerEvent: {}
+[4.030628] (-) TimerEvent: {}
+[4.134446] (-) TimerEvent: {}
+[4.239332] (-) TimerEvent: {}
+[4.246993] (nav_bot1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.381608] (-) TimerEvent: {}
+[4.422711] (nav_bot1) StderrLine: {'line': b"Error parsing '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1/package.xml':\n"}
+[4.487415] (-) TimerEvent: {}
+[4.599487] (-) TimerEvent: {}
+[4.701788] (-) TimerEvent: {}
+[4.802807] (-) TimerEvent: {}
+[4.911910] (-) TimerEvent: {}
+[5.016154] (-) TimerEvent: {}
+[5.124577] (-) TimerEvent: {}
+[5.235114] (-) TimerEvent: {}
+[5.336875] (-) TimerEvent: {}
+[5.449000] (-) TimerEvent: {}
+[5.553908] (-) TimerEvent: {}
+[5.657239] (-) TimerEvent: {}
+[5.758669] (-) TimerEvent: {}
+[5.859461] (-) TimerEvent: {}
+[5.961871] (-) TimerEvent: {}
+[6.063822] (-) TimerEvent: {}
+[6.164948] (-) TimerEvent: {}
+[6.265801] (-) TimerEvent: {}
+[6.366722] (-) TimerEvent: {}
+[6.468216] (-) TimerEvent: {}
+[6.570035] (-) TimerEvent: {}
+[6.671655] (-) TimerEvent: {}
+[6.772755] (-) TimerEvent: {}
+[6.874854] (-) TimerEvent: {}
+[6.976056] (-) TimerEvent: {}
+[7.078758] (-) TimerEvent: {}
+[7.179917] (-) TimerEvent: {}
+[7.281128] (-) TimerEvent: {}
+[7.382437] (-) TimerEvent: {}
+[7.484290] (-) TimerEvent: {}
+[7.585695] (-) TimerEvent: {}
+[7.687817] (-) TimerEvent: {}
+[7.788645] (-) TimerEvent: {}
+[7.890995] (-) TimerEvent: {}
+[7.993563] (-) TimerEvent: {}
+[8.095164] (-) TimerEvent: {}
+[8.196283] (-) TimerEvent: {}
+[8.297448] (-) TimerEvent: {}
+[8.398883] (-) TimerEvent: {}
+[8.500666] (-) TimerEvent: {}
+[8.602726] (-) TimerEvent: {}
+[8.711484] (-) TimerEvent: {}
+[8.812809] (-) TimerEvent: {}
+[8.915080] (-) TimerEvent: {}
+[9.016570] (-) TimerEvent: {}
+[9.121381] (-) TimerEvent: {}
+[9.222173] (-) TimerEvent: {}
+[9.333642] (-) TimerEvent: {}
+[9.439436] (-) TimerEvent: {}
+[9.542420] (-) TimerEvent: {}
+[9.644332] (-) TimerEvent: {}
+[9.748628] (-) TimerEvent: {}
+[9.851012] (-) TimerEvent: {}
+[9.953082] (-) TimerEvent: {}
+[10.055815] (-) TimerEvent: {}
+[10.159837] (-) TimerEvent: {}
+[10.262077] (-) TimerEvent: {}
+[10.362934] (-) TimerEvent: {}
+[10.464753] (-) TimerEvent: {}
+[10.567256] (-) TimerEvent: {}
+[10.671622] (-) TimerEvent: {}
+[10.773552] (-) TimerEvent: {}
+[10.876133] (-) TimerEvent: {}
+[10.978083] (-) TimerEvent: {}
+[11.081293] (-) TimerEvent: {}
+[11.184267] (-) TimerEvent: {}
+[11.287645] (-) TimerEvent: {}
+[11.388565] (-) TimerEvent: {}
+[11.489841] (-) TimerEvent: {}
+[11.590845] (-) TimerEvent: {}
+[11.696427] (-) TimerEvent: {}
+[11.801167] (-) TimerEvent: {}
+[11.905122] (-) TimerEvent: {}
+[12.010315] (-) TimerEvent: {}
+[12.115412] (-) TimerEvent: {}
+[12.220305] (-) TimerEvent: {}
+[12.322034] (-) TimerEvent: {}
+[12.424697] (-) TimerEvent: {}
+[12.525419] (-) TimerEvent: {}
+[12.629757] (-) TimerEvent: {}
+[12.735663] (-) TimerEvent: {}
+[12.842606] (-) TimerEvent: {}
+[12.949590] (-) TimerEvent: {}
+[13.052085] (-) TimerEvent: {}
+[13.153703] (-) TimerEvent: {}
+[13.255384] (-) TimerEvent: {}
+[13.358051] (-) TimerEvent: {}
+[13.460712] (-) TimerEvent: {}
+[13.562288] (-) TimerEvent: {}
+[13.663267] (-) TimerEvent: {}
+[13.764835] (-) TimerEvent: {}
+[13.865409] (-) TimerEvent: {}
+[13.966773] (-) TimerEvent: {}
+[14.067182] (-) TimerEvent: {}
+[14.167968] (-) TimerEvent: {}
+[14.270680] (-) TimerEvent: {}
+[14.373248] (-) TimerEvent: {}
+[14.481637] (-) TimerEvent: {}
+[14.587718] (-) TimerEvent: {}
+[14.691816] (-) TimerEvent: {}
+[14.792882] (-) TimerEvent: {}
+[14.895100] (-) TimerEvent: {}
+[14.996037] (-) TimerEvent: {}
+[15.100550] (-) TimerEvent: {}
+[15.208246] (-) TimerEvent: {}
+[15.310833] (-) TimerEvent: {}
+[15.413653] (-) TimerEvent: {}
+[15.515360] (-) TimerEvent: {}
+[15.617719] (-) TimerEvent: {}
+[15.718905] (-) TimerEvent: {}
+[15.820725] (-) TimerEvent: {}
+[15.926662] (-) TimerEvent: {}
+[15.996321] (nav_bot1) CommandEnded: {'returncode': -2}
+[15.997879] (nav_bot1) JobEnded: {'identifier': 'nav_bot1', 'rc': 'SIGINT'}
+[16.013639] (-) EventReactorShutdown: {}

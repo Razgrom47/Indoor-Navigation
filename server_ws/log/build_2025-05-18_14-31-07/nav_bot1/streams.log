@@ -1,0 +1,39 @@
+[0.132s] Invoking command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1
+[0.227s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.303s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.358s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.841s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.850s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.852s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.858s] -- Added test 'lint_cmake' to check CMake code style
+[1.865s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.876s] -- Added test 'xmllint' to check XML markup files
+[1.878s] -- Configuring done (1.7s)
+[1.917s] -- Generating done (0.0s)
+[1.925s] -- Build files have been written to: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1
+[1.940s] Invoked command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1
+[1.942s] Invoking command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1 -- -j4 -l4
+[2.152s] Invoked command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1 -- -j4 -l4
+[2.224s] Invoking command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1
+[2.275s] -- Install configuration: ""
+[2.275s] -- Execute custom install script
+[2.299s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/config/empty.yaml
+[2.347s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/description/robot.urdf.xacro
+[2.406s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/launch/rsp.launch.py
+[2.441s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/worlds/empty.world
+[2.468s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/package_run_dependencies/nav_bot1
+[2.512s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/parent_prefix_path/nav_bot1
+[2.546s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/ament_prefix_path.sh
+[2.591s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/ament_prefix_path.dsv
+[2.637s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/path.sh
+[2.666s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/path.dsv
+[2.695s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.bash
+[2.735s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.sh
+[2.762s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.zsh
+[2.794s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.dsv
+[2.824s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/package.dsv
+[2.870s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/packages/nav_bot1
+[2.941s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/cmake/nav_bot1Config.cmake
+[2.981s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/cmake/nav_bot1Config-version.cmake
+[3.019s] -- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/package.xml
+[3.064s] Invoked command in '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1

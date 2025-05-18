@@ -1,0 +1,33 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/config/empty.yaml
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/description/robot.urdf.xacro
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/launch/rsp.launch.py
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/worlds/empty.world
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/package_run_dependencies/nav_bot1
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/parent_prefix_path/nav_bot1
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/ament_prefix_path.sh
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/ament_prefix_path.dsv
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/path.sh
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/path.dsv
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.bash
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.sh
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.zsh
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.dsv
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/package.dsv
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/packages/nav_bot1
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/cmake/nav_bot1Config.cmake
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/cmake/nav_bot1Config-version.cmake
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/package.xml

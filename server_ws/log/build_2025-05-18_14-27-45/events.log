@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (nav_bot1) JobQueued: {'identifier': 'nav_bot1', 'dependencies': OrderedDict()}
+[0.000423] (nav_bot1) JobStarted: {'identifier': 'nav_bot1'}
+[0.036014] (nav_bot1) JobProgress: {'identifier': 'nav_bot1', 'progress': 'cmake'}
+[0.036333] (nav_bot1) Command: {'cmd': ['/usr/bin/cmake', '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1', '-DCMAKE_INSTALL_PREFIX=/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1'], 'cwd': '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'indoor-navigation', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/indoor-navigation', 'OLDPWD': '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1900', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'indoor-navigation', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'indoor-navigation', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/indoor-navigation-VirtualBox:@/tmp/.ICE-unix/1859,unix/indoor-navigation-VirtualBox:/tmp/.ICE-unix/1859', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3684ba0_4b30_49fe_9927_5cbe0f321299', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PIGS62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.086576] (-) TimerEvent: {}
+[0.190086] (-) TimerEvent: {}
+[0.293136] (-) TimerEvent: {}
+[0.397793] (-) TimerEvent: {}
+[0.517751] (nav_bot1) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.519201] (-) TimerEvent: {}
+[0.623942] (-) TimerEvent: {}
+[0.724952] (-) TimerEvent: {}
+[0.750366] (nav_bot1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.829555] (-) TimerEvent: {}
+[0.891230] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.930479] (-) TimerEvent: {}
+[1.033765] (-) TimerEvent: {}
+[1.134989] (-) TimerEvent: {}
+[1.235971] (-) TimerEvent: {}
+[1.337277] (-) TimerEvent: {}
+[1.444890] (-) TimerEvent: {}
+[1.590466] (-) TimerEvent: {}
+[1.703393] (-) TimerEvent: {}
+[1.784730] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.802840] (nav_bot1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.831153] (-) TimerEvent: {}
+[1.831345] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.831545] (nav_bot1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.861541] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.932964] (-) TimerEvent: {}
+[2.034890] (-) TimerEvent: {}
+[2.137020] (-) TimerEvent: {}
+[2.247841] (-) TimerEvent: {}
+[2.351248] (-) TimerEvent: {}
+[2.430760] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.452003] (-) TimerEvent: {}
+[2.457767] (nav_bot1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.458956] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.461320] (nav_bot1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.475372] (nav_bot1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.571895] (-) TimerEvent: {}
+[2.676470] (-) TimerEvent: {}
+[2.782921] (-) TimerEvent: {}
+[2.887032] (-) TimerEvent: {}
+[2.967956] (nav_bot1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.987904] (-) TimerEvent: {}
+[3.091156] (-) TimerEvent: {}
+[3.220464] (-) TimerEvent: {}
+[3.262474] (nav_bot1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.321362] (-) TimerEvent: {}
+[3.427878] (-) TimerEvent: {}
+[3.501309] (nav_bot1) StderrLine: {'line': b"Error parsing '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1/package.xml':\n"}
+[3.528831] (-) TimerEvent: {}
+[3.630159] (-) TimerEvent: {}
+[3.732140] (-) TimerEvent: {}
+[3.832775] (-) TimerEvent: {}
+[3.933935] (-) TimerEvent: {}
+[4.039267] (-) TimerEvent: {}
+[4.141695] (-) TimerEvent: {}
+[4.247087] (-) TimerEvent: {}
+[4.349788] (-) TimerEvent: {}
+[4.454383] (-) TimerEvent: {}
+[4.559056] (-) TimerEvent: {}
+[4.662425] (-) TimerEvent: {}
+[4.771741] (-) TimerEvent: {}
+[4.879739] (-) TimerEvent: {}
+[4.981856] (-) TimerEvent: {}
+[5.270226] (-) TimerEvent: {}
+[5.372828] (-) TimerEvent: {}
+[5.478419] (-) TimerEvent: {}
+[5.579930] (-) TimerEvent: {}
+[5.682856] (-) TimerEvent: {}
+[5.783972] (-) TimerEvent: {}
+[5.893473] (-) TimerEvent: {}
+[6.005336] (-) TimerEvent: {}
+[6.108397] (-) TimerEvent: {}
+[6.216110] (-) TimerEvent: {}
+[6.321125] (-) TimerEvent: {}
+[6.422889] (-) TimerEvent: {}
+[6.524212] (-) TimerEvent: {}
+[6.625985] (-) TimerEvent: {}
+[6.728001] (-) TimerEvent: {}
+[6.829814] (-) TimerEvent: {}
+[6.932078] (-) TimerEvent: {}
+[7.034051] (-) TimerEvent: {}
+[7.137765] (-) TimerEvent: {}
+[7.240011] (-) TimerEvent: {}
+[7.346813] (-) TimerEvent: {}
+[7.453192] (-) TimerEvent: {}
+[7.560868] (-) TimerEvent: {}
+[7.663818] (-) TimerEvent: {}
+[7.767143] (-) TimerEvent: {}
+[7.869814] (-) TimerEvent: {}
+[7.973322] (-) TimerEvent: {}
+[8.076745] (-) TimerEvent: {}
+[8.164013] (nav_bot1) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.165081] (nav_bot1) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[8.165264] (nav_bot1) StderrLine: {'line': b'    main()\n'}
+[8.165438] (nav_bot1) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[8.165628] (nav_bot1) StderrLine: {'line': b'    raise e\n'}
+[8.165804] (nav_bot1) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[8.170000] (nav_bot1) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[8.175274] (nav_bot1) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[8.176674] (nav_bot1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[8.176878] (-) TimerEvent: {}
+[8.177028] (nav_bot1) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[8.191185] (nav_bot1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[8.191407] (nav_bot1) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[8.191594] (nav_bot1) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1/package.xml':\n"}
+[8.192713] (nav_bot1) StderrLine: {'line': b'Invalid email "" for person "Indoor-Navigation"\n'}
+[8.192896] (nav_bot1) StderrLine: {'line': b'Maintainers must have an email address\n'}
+[8.281851] (-) TimerEvent: {}
+[8.383384] (-) TimerEvent: {}
+[8.465338] (nav_bot1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.469621] (nav_bot1) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[8.470010] (nav_bot1) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[8.470201] (nav_bot1) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[8.470387] (nav_bot1) StderrLine: {'line': b'  /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/src/nav_bot1/package.xml\n'}
+[8.470571] (nav_bot1) StderrLine: {'line': b'  /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1/ament_cmake_core/package.cmake)\n'}
+[8.470754] (nav_bot1) StderrLine: {'line': b'  returned error code 1\n'}
+[8.470933] (nav_bot1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.471111] (nav_bot1) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[8.471290] (nav_bot1) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[8.471469] (nav_bot1) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[8.471667] (nav_bot1) StderrLine: {'line': b'\n'}
+[8.471841] (nav_bot1) StderrLine: {'line': b'\x1b[0m\n'}
+[8.490706] (-) TimerEvent: {}
+[8.519708] (nav_bot1) CommandEnded: {'returncode': 1}
+[8.523675] (nav_bot1) JobEnded: {'identifier': 'nav_bot1', 'rc': 1}
+[8.546308] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/build/nav_bot1/ament_cmake_core/nav_bot1Config.cmake
