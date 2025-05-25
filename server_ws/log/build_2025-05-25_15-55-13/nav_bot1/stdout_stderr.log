@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/config/empty.yaml
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/description/xiao_geek_robot.xacro
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/description/xiaor_geek_robot.urdf.xacro
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/launch/rsp.launch.py
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/worlds/empty.world
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/package_run_dependencies/nav_bot1
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/parent_prefix_path/nav_bot1
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/path.sh
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/environment/path.dsv
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.bash
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.sh
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.zsh
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/local_setup.dsv
+-- Symlinking: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/package.dsv
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/ament_index/resource_index/packages/nav_bot1
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/cmake/nav_bot1Config.cmake
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/cmake/nav_bot1Config-version.cmake
+-- Up-to-date symlink: /home/indoor-navigation/Indoor-Navigation/Indoor-Navigation/server_ws/install/nav_bot1/share/nav_bot1/package.xml

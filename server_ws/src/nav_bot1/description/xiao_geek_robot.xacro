@@ -126,7 +126,7 @@
   <joint name="camera_joint" type="fixed">
     <parent link="chassis"/>
     <child link="camera"/>
-    <origin xyz="0.15 0 0.15"/>
+    <origin xyz="0.15 0 0.25"/>
   </joint>
 
   <link name="camera">
@@ -137,25 +137,33 @@
       <material name="green"/>
     </visual>
     <xacro:inertial_box mass="0.05" x="0.025" y="0.025" z="0.02">
-      <origin xyz="0.15 0 0.15"/>
+      <origin xyz="0.15 0 0.25"/>
     </xacro:inertial_box>
   </link>
+  
   <!-- CASTER WHEEL NO PURPOSE ONLY FOR SIMULATION AND GEOMETRY/PHYSICS -->
-    <link name="caster_wheel">
-        <visual>
-            <geometry>
-                <sphere radius="0.05"/>
-            </geometry>
-            <material name="black"/>
-        </visual>
-        <collision>
-            <geometry>
-                <sphere radius="0.05"/>
-            </geometry>
-        </collision>
-        <xacro:inertial_sphere mass="0.1" radius="0.05">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-        </xacro:inertial_sphere>
-    </link>
+  
+  <joint name="caster_wheel_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="caster_wheel"/>
+    <origin xyz="0.24 0 0"/>
+  </joint>
+
+  <link name="caster_wheel">
+      <visual>
+          <geometry>
+              <sphere radius="0.05"/>
+          </geometry>
+          <material name="black"/>
+      </visual>
+      <collision>
+          <geometry>
+              <sphere radius="0.05"/>
+          </geometry>
+      </collision>
+      <xacro:inertial_sphere mass="0.1" radius="0.05">
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+      </xacro:inertial_sphere>
+  </link>
 
 </robot>
